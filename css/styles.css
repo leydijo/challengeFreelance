@@ -72,8 +72,20 @@ a{
 .contentWho{
     text-align: center;
     padding: 80px;
-    background-color: #FAF2F6;
+    
 }
+
+.contentServices{
+    text-align: center;
+    padding: 80px;
+    background-color: black;
+    color: aliceblue;
+}
+
+.contentServices h3{
+    color: aliceblue;
+}
+
 .content{
     text-align: center;
     padding: 80px;

@@ -46,15 +46,13 @@
 
 let  vacio = [];
 
-function ordenar(e){
-    e.preventDefault();
+function ordenar(){
+    
     let letras = document.getElementById("letras").value ;
     let mostrar = document.getElementById("mostrar");
-    vacio = letras.split("");
-     vacio.sort();
-     vacio.reverse();
-     letras= vacio.join("")
-     mostrar.innerHTML = vacio ;
+    vacio = letras.split("").sort().reverse().join("");
+    mostrar.innerHTML = vacio;
+     
     
 }
 
